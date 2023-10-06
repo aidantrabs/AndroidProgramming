@@ -22,7 +22,7 @@
         android:text="@string/check_box_text" />
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/listItemsSwitch"
         android:layout_columnWeight="1"
         android:gravity="fill"
         android:text="@string/switch_text"

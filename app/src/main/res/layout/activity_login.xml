@@ -8,13 +8,13 @@
     tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/LoginText"
+        android:id="@+id/loginText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login_text" />
 
     <EditText
-        android:id="@+id/EditLogin"
+        android:id="@+id/editLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -23,16 +23,22 @@
         android:autofillHints="" />
 
     <TextView
-        android:id="@+id/PasswordText"
+        android:id="@+id/passwordText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/password_text" />
 
     <EditText
-        android:id="@+id/EditPassword"
+        android:id="@+id/editPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
         android:autofillHints="" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_btn_text" />
 </LinearLayout>

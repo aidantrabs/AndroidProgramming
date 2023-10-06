@@ -10,4 +10,11 @@
     <string name="check_box_text"> CheckBox </string>
     <string name="switch_text"> What does this do? </string>
     <string name="image_description"> Image </string>
+    <string name="login_btn_text"> Login </string>
+    <string name="dialog_title"> Do you want to quit this activity? </string>
+    <string name="dialog_message"> Finished </string>
+    <string name="ok"> Ok </string>
+    <string name="cancel"> Cancel </string>
+    <string name="toast_switch_on"> Switch is On </string>
+    <string name="toast_switch_off"> Switch is Off </string>
 </resources>
