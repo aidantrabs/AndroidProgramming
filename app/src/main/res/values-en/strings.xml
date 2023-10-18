@@ -17,4 +17,6 @@
     <string name="cancel"> Cancel </string>
     <string name="toast_switch_on"> Switch is On </string>
     <string name="toast_switch_off"> Switch is Off </string>
+    <string name="chat_button"> Start Chat </string>
+    <string name="send_button"> Send </string>
 </resources>
