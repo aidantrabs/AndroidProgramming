@@ -18,4 +18,13 @@
     <string name="toast_switch_off"> Switch is Off </string>
     <string name="chat_button"> Start Chat </string>
     <string name="send_button"> Send </string>
+    <string name="toolbar_one"> One </string>
+    <string name="toolbar_two"> Two </string>
+    <string name="toolbar_three"> Three </string>
+    <string name="title_activity_test_toolbar"> TestToolbar </string>
+    <string name="about"> About </string>
+    <string name="snackbar_text_toolbar"> This is a snackbar </string>
+    <string name="selected_toolbar_one"> You selected item 1 </string>
+    <string name="selected_toolbar_two"> Do you want to go back? </string>
+    <string name="about_toast_msg"> Version 1.0, by Aidan Traboulay</string>
 </resources>

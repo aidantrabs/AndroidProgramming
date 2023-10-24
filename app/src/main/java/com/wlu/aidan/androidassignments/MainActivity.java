@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button mainBtn;
     private Button chatBtn;
+    private Button toolbarBtn;
     private String messagedPassed;
 
     @Override
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         mainBtn = findViewById(R.id.mainButton);
         chatBtn = findViewById(R.id.chatButton);
+        toolbarBtn = findViewById(R.id.testToolbar);
 
         mainBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +42,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Log.i(ACTIVITY_NAME, "User clicked Start Chat");
                 Intent intent = new Intent(MainActivity.this, ChatWindow.class);
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+        });
+
+        toolbarBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i(ACTIVITY_NAME, "User clicked Start Test Toolbar");
+                Intent intent = new Intent(MainActivity.this, TestToolbar.class);
                 startActivityForResult(intent, REQUEST_CODE);
             }
         });
@@ -103,9 +114,5 @@ public class MainActivity extends AppCompatActivity {
 
     public void print(String message) {
         Toast.makeText(this, "ListItemsActivity passed: " + message, Toast.LENGTH_SHORT).show();
-    }
-
-    public void startBtnOnClick(View view) {
-        Log.i(ACTIVITY_NAME, "User clicked Start Chat");
     }
 }

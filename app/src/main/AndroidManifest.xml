@@ -18,6 +18,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAssignments"
         tools:targetApi="31">
+        <activity
+            android:name=".CustomLayout"
+            android:exported="false" />
+        <activity
+            android:name=".TestToolbar"
+            android:exported="false"
+            android:label="@string/title_activity_test_toolbar"
+            android:theme="@style/Theme.AndroidAssignments" />
 
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
@@ -25,12 +33,12 @@
 
         <activity
             android:name=".ChatWindow"
-            android:parentActivityName=".MainActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ListItemsActivity"
-            android:parentActivityName=".MainActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LoginActivity"
             android:exported="true">
@@ -44,7 +52,8 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:parentActivityName=".LoginActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".LoginActivity" />
     </application>
+
 </manifest>

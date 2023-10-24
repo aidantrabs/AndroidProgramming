@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id="@+id/toolbar_action_one"
+        android:icon="@drawable/search"
+        android:title="@string/toolbar_one"
+        android:orderInCategory="101"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/toolbar_action_two"
+        android:icon="@drawable/help"
+        android:title="@string/toolbar_two"
+        android:orderInCategory="102"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/toolbar_action_three"
+        android:icon="@drawable/extension"
+        android:title="@string/toolbar_three"
+        android:orderInCategory="103"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/toolbar_action_about"
+        android:title="@string/about"
+        android:orderInCategory="104"
+        app:showAsAction="never" />
+</menu>

@@ -35,4 +35,15 @@
         app:layout_constraintTop_toBottomOf="@id/mainButton"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
+
+
+    <Button
+        android:id="@+id/testToolbar"
+        android:onClick="startToolbarOnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_test_toolbar"
+        app:layout_constraintTop_toBottomOf="@id/chatButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
