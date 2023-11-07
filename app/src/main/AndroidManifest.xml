@@ -20,10 +20,11 @@
         tools:targetApi="31">
         <activity
             android:name=".CustomLayout"
-            android:exported="false" />
+            android:exported="true" />
+
         <activity
             android:name=".TestToolbar"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_activity_test_toolbar"
             android:theme="@style/Theme.AndroidAssignments" />
 
@@ -35,6 +36,7 @@
             android:name=".ChatWindow"
             android:exported="true"
             android:parentActivityName=".MainActivity" />
+
         <activity
             android:name=".ListItemsActivity"
             android:exported="true"
